@@ -120,7 +120,7 @@ class App extends React.Component {
        						<form onSubmit={this.handleSubmit}>
        							<input type='text' name='userName' placeholder='your name' value={this.state.user.displayName || this.state.user.email} />
        							<input type='text' name='currentItem' placeholder="describe your resource" onChange={this.handleChange} value={this.state.currentItem} />
-       							<input type='text' name='link' placeholder='paste link here' onChange={this.handleChange} value={this.state.link} />
+       							<input type='text' name='link' placeholder='paste link here (include http)' onChange={this.handleChange} value={this.state.link} />
        							<button>Add Item</button>
        						</form>
        					</section>  
