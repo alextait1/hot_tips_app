@@ -103,9 +103,6 @@ header {
   @include respond-to(small){
     width:100%;
   }
-  // @include respond-to(medium){
-
-  // }
 }
 
 .display-item button {
