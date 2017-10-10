@@ -138,6 +138,13 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0; }
+  @media (max-width: 768px) {
+    body {
+      height: 100%; } }
+
+@media (max-width: 768px) {
+  .app {
+    height: 100%; } }
 
 .header__container {
   display: flex;
@@ -325,4 +332,11 @@ button {
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0.7);
   display: inline-block;
-  padding: 5px 20px; }
+  padding: 5px 20px;
+  margin-bottom: 100%; }
+  @media (max-width: 768px) {
+    .warning {
+      margin-left: 0;
+      text-align: center;
+      font-size: 24px;
+      width: 100%; } }
